@@ -112,7 +112,7 @@
           "image": "livre_magique_foudre.png",
           "hoveredImage": "",
           "onClick": {
-            "name": "ClickBoutonFoudreII"
+            "name": "ClickBoutonFoudre2"
           },
           "x": 184,
           "y": 74
@@ -125,7 +125,7 @@
           "image": "livre_magique_foudre.png",
           "hoveredImage": "",
           "onClick": {
-            "name": "ClickBoutonFoudreIII"
+            "name": "ClickBoutonFoudre3"
           },
           "x": 184,
           "y": 92

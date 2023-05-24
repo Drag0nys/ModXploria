@@ -12,7 +12,7 @@ public class FoudreEnchantment extends Enchantment {
 
 	@Override
 	public int getMaxLevel() {
-		return 5;
+		return 3;
 	}
 
 	@Override

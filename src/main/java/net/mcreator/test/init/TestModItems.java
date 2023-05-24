@@ -15,7 +15,6 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.test.item.XplorialivreItem;
 import net.mcreator.test.item.LivremagiquefoudreItem;
-import net.mcreator.test.item.HhhhItem;
 import net.mcreator.test.item.EpeeexplosiveItem;
 import net.mcreator.test.item.BatonmagiqueItem;
 import net.mcreator.test.TestMod;
@@ -28,8 +27,6 @@ public class TestModItems {
 	public static final RegistryObject<Item> BATONMAGIQUE = REGISTRY.register("batonmagique", () -> new BatonmagiqueItem());
 	public static final RegistryObject<Item> LIVREMAGIQUEFOUDRE = REGISTRY.register("livremagiquefoudre", () -> new LivremagiquefoudreItem());
 	public static final RegistryObject<Item> TABLEDESORT = block(TestModBlocks.TABLEDESORT, TestModTabs.TAB_XPLORIAONGLETCREA);
-	public static final RegistryObject<Item> BJMB = block(TestModBlocks.BJMB, TestModTabs.TAB_XPLORIAONGLETCREA);
-	public static final RegistryObject<Item> HHHH = REGISTRY.register("hhhh", () -> new HhhhItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

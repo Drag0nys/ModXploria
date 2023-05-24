@@ -89,7 +89,9 @@ public class TestModVariables {
 		public static final String DATA_NAME = "test_mapvars";
 		public double NbCoupEpeeExplo = 5.0;
 		public boolean VraiCoupEpee = false;
-		public double mana = 0;
+		public double mana = 0.0;
+		public double manaMax = 100.0;
+		public double Temps = 0;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -101,6 +103,8 @@ public class TestModVariables {
 			NbCoupEpeeExplo = nbt.getDouble("NbCoupEpeeExplo");
 			VraiCoupEpee = nbt.getBoolean("VraiCoupEpee");
 			mana = nbt.getDouble("mana");
+			manaMax = nbt.getDouble("manaMax");
+			Temps = nbt.getDouble("Temps");
 		}
 
 		@Override
@@ -108,6 +112,8 @@ public class TestModVariables {
 			nbt.putDouble("NbCoupEpeeExplo", NbCoupEpeeExplo);
 			nbt.putBoolean("VraiCoupEpee", VraiCoupEpee);
 			nbt.putDouble("mana", mana);
+			nbt.putDouble("manaMax", manaMax);
+			nbt.putDouble("Temps", Temps);
 			return nbt;
 		}
 
