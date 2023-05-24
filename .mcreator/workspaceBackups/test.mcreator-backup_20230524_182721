@@ -855,7 +855,7 @@
       "type": "overlay",
       "sortid": 49,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "mana",
       "metadata": {
         "files": [
