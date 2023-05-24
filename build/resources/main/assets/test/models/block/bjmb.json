@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "test:blocks/advancement",
+    "up": "test:blocks/advancement",
+    "north": "test:blocks/advancement",
+    "east": "test:blocks/advancement",
+    "south": "test:blocks/advancement",
+    "west": "test:blocks/advancement",
+    "particle": "test:blocks/advancement"
+  },
+  "render_type": "solid"
+}

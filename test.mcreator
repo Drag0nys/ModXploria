@@ -828,6 +828,22 @@
         ]
       },
       "path": "~/item magique"
+    },
+    {
+      "name": "Bjmb",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bjmb",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/blockstates/bjmb.json",
+          "src/main/java/net/mcreator/test/block/BjmbBlock.java",
+          "src/main/resources/assets/test/models/item/bjmb.json",
+          "src/main/resources/assets/test/models/block/bjmb.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -860,16 +876,16 @@
       "gui.test.guide_3.button_menu": "Menu",
       "gui.test.guide_1.label_bonne_chance_a_vous_aventurier": "Bonne chance à vous aventurier !!",
       "gui.test.tablesort.label_foudre": "Foudre",
-      "gui.test.guide_5.label_mission_2": "Mission 3",
       "gui.test.guide_5.button_menu": "Menu",
+      "gui.test.guide_5.label_mission_2": "Mission 3",
       "gui.test.guide_4.button_menu": "Menu",
-      "gui.test.guide_1.label_chaque_succes_vous_donne_une_pag": "Chaque succés vous donne une page supplémentaire afin",
       "gui.test.guide_4.button_page_suivante": "page suivante",
+      "gui.test.guide_1.label_chaque_succes_vous_donne_une_pag": "Chaque succés vous donne une page supplémentaire afin",
       "xploria": "xploria",
       "gui.test.guide_4.label_mission_2": "Mission 2",
       "advancements.mission_2.descr": "- 1000 xp",
-      "gui.test.guide_2.button_page_suivante": "page suivante",
       "item.test.epeeexplosive": "Epée éxplosive",
+      "gui.test.guide_2.button_page_suivante": "page suivante",
       "item.test.livremagiquefoudre": "Livre magique de foudre",
       "itemGroup.tabxploriaongletcrea": "Xploria",
       "gui.test.guide_1.label_chaque_page_vous_donne_des_indic": "Chaque page vous donne des indications pour réaliser ",
@@ -881,6 +897,7 @@
       "advancements.racine_advancement.title": "Bienvenue !!",
       "gui.test.guide_1.button_page_suivante": "page suivante",
       "gui.test.guide_3.label_mission_1": "Mission 1",
+      "block.test.bjmb": "Bjmb",
       "advancements.racine_advancement.descr": "Termine des quêtes pour obtenir des récompenses !",
       "advancements.mission_1.descr": "- RIEN SALE NOOB",
       "gui.test.guide_2.page3": "",
