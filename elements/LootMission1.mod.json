@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 {
   "_fv": 39,
   "_type": "loottable",
@@ -31,4 +32,39 @@
     "name": "advancements_rewards/loot_mission_1",
     "namespace": "mod"
   }
+=======
+{
+  "_fv": 39,
+  "_type": "loottable",
+  "definition": {
+    "type": "Advancement reward",
+    "pools": [
+      {
+        "minrolls": 1,
+        "maxrolls": 1,
+        "minbonusrolls": 1,
+        "maxbonusrolls": 1,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Livremagiquefoudre"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          }
+        ]
+      }
+    ],
+    "name": "advancements_rewards/loot_mission_1",
+    "namespace": "mod"
+  }
+>>>>>>> Stashed changes
 }

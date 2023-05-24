@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 {
   "mod_elements": [
     {
@@ -1230,4 +1231,1238 @@
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202300110610
+=======
+{
+  "mod_elements": [
+    {
+      "name": "Xploriaongletcrea",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xploriaongletcrea",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "TimerCoupsRestant",
+      "type": "overlay",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "timer_coups_restant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/client/screens/TimerCoupsRestantOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "RacineAdvancement",
+      "type": "achievement",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "racine_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/advancements/racine_advancement.json"
+        ]
+      },
+      "path": "~/adavancement"
+    },
+    {
+      "name": "Mission1",
+      "type": "achievement",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mission_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/advancements/mission_1.json"
+        ]
+      },
+      "path": "~/adavancement"
+    },
+    {
+      "name": "LootMission1",
+      "type": "loottable",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loot_mission_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/loot_tables/advancements_rewards/loot_mission_1.json"
+        ]
+      },
+      "path": "~/adavancement/table_loot_advancement"
+    },
+    {
+      "name": "Epeeexplosive",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epeeexplosive",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/models/item/epeeexplosive.json",
+          "src/main/java/net/mcreator/test/item/EpeeexplosiveItem.java"
+        ]
+      },
+      "path": "~/outils_epee"
+    },
+    {
+      "name": "Clickdroitepeeexplosive",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clickdroitepeeexplosive",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/ClickdroitepeeexplosiveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "Calculeepeeexplosive",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calculeepeeexplosive",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/CalculeepeeexplosiveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "BlockPrincipalMod",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_principal_mod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/models/block/block_principal_mod.json",
+          "src/main/resources/assets/test/models/item/block_principal_mod.json",
+          "src/main/java/net/mcreator/test/block/BlockPrincipalModBlock.java",
+          "src/main/resources/assets/test/blockstates/block_principal_mod.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "Returnoverlaycoupsrestant",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "returnoverlaycoupsrestant",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/ReturnoverlaycoupsrestantProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "Conditionafficheroverlay",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "conditionafficheroverlay",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/ConditionafficheroverlayProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "Dropepeeexplosive",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dropepeeexplosive",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/DropepeeexplosiveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/adavancement/procedure_advancement"
+    },
+    {
+      "name": "Mission2",
+      "type": "achievement",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mission_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/advancements/mission_2.json"
+        ]
+      },
+      "path": "~/adavancement"
+    },
+    {
+      "name": "Guide1",
+      "type": "gui",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guide_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/client/gui/Guide1Screen.java",
+          "src/main/java/net/mcreator/test/world/inventory/Guide1Menu.java",
+          "src/main/java/net/mcreator/test/network/Guide1ButtonMessage.java"
+        ]
+      },
+      "path": "~/gui"
+    },
+    {
+      "name": "Ouvrigui",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ouvrigui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/network/OuvriguiMessage.java"
+        ]
+      },
+      "path": "~/gui"
+    },
+    {
+      "name": "Ouvrirguide1",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ouvrirguide_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/Ouvrirguide1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/gui/procedure"
+    },
+    {
+      "name": "Guide2",
+      "type": "gui",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guide_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/world/inventory/Guide2Menu.java",
+          "src/main/java/net/mcreator/test/client/gui/Guide2Screen.java",
+          "src/main/java/net/mcreator/test/network/Guide2ButtonMessage.java"
+        ]
+      },
+      "path": "~/gui/procedure"
+    },
+    {
+      "name": "Ouvrirguide2",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ouvrirguide_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/Ouvrirguide2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/gui/procedure"
+    },
+    {
+      "name": "Guide3",
+      "type": "gui",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guide_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/world/inventory/Guide3Menu.java",
+          "src/main/java/net/mcreator/test/network/Guide3ButtonMessage.java",
+          "src/main/java/net/mcreator/test/client/gui/Guide3Screen.java"
+        ]
+      },
+      "path": "~/gui"
+    },
+    {
+      "name": "Guide4",
+      "type": "gui",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guide_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/network/Guide4ButtonMessage.java",
+          "src/main/java/net/mcreator/test/client/gui/Guide4Screen.java",
+          "src/main/java/net/mcreator/test/world/inventory/Guide4Menu.java"
+        ]
+      },
+      "path": "~/gui"
+    },
+    {
+      "name": "Ouvrirguide3",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ouvrirguide_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/Ouvrirguide3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/gui/procedure"
+    },
+    {
+      "name": "Ouvrirguide4",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ouvrirguide_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/Ouvrirguide4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/gui/procedure"
+    },
+    {
+      "name": "ConditionPage1",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "condition_page_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/ConditionPage1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/gui/procedure"
+    },
+    {
+      "name": "ConditionPage2",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "condition_page_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/ConditionPage2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/gui/procedure"
+    },
+    {
+      "name": "Give1erItem",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_1er_item",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/Give1erItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/adavancement/procedure_advancement"
+    },
+    {
+      "name": "Clickdroitblockguide",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clickdroitblockguide",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/ClickdroitblockguideProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "Xplorialivre",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xplorialivre",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/models/item/xplorialivre.json",
+          "src/main/java/net/mcreator/test/item/XplorialivreItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "ConditionPage3",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "condition_page_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/ConditionPage3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/gui/procedure"
+    },
+    {
+      "name": "Guide5",
+      "type": "gui",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guide_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/world/inventory/Guide5Menu.java",
+          "src/main/java/net/mcreator/test/client/gui/Guide5Screen.java",
+          "src/main/java/net/mcreator/test/network/Guide5ButtonMessage.java"
+        ]
+      },
+      "path": "~/gui"
+    },
+    {
+      "name": "Ouvrirguide5",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ouvrirguide_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/Ouvrirguide5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/gui/procedure"
+    },
+    {
+      "name": "Batonmagique",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "batonmagique",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/item/BatonmagiqueItem.java",
+          "src/main/resources/assets/test/models/item/batonmagique.json"
+        ]
+      },
+      "path": "~/item magique"
+    },
+    {
+      "name": "Livremagiquefoudre",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "livremagiquefoudre",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/models/item/livremagiquefoudre.json",
+          "src/main/java/net/mcreator/test/item/LivremagiquefoudreItem.java"
+        ]
+      },
+      "path": "~/item magique"
+    },
+    {
+      "name": "Foudre",
+      "type": "enchantment",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foudre",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/enchantment/FoudreEnchantment.java"
+        ]
+      },
+      "path": "~/item magique"
+    },
+    {
+      "name": "UtiliserFoudre",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "utiliser_foudre",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/UtiliserFoudreProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/item magique"
+    },
+    {
+      "name": "Tabledesort",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tabledesort",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/block/TabledesortBlock.java",
+          "src/main/resources/assets/test/models/item/tabledesort.json",
+          "src/main/resources/assets/test/models/block/tabledesort.json",
+          "src/main/resources/assets/test/blockstates/tabledesort.json"
+        ]
+      },
+      "path": "~/item magique"
+    },
+    {
+      "name": "Tablesort",
+      "type": "gui",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tablesort",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/client/gui/TablesortScreen.java",
+          "src/main/java/net/mcreator/test/network/TablesortButtonMessage.java",
+          "src/main/java/net/mcreator/test/world/inventory/TablesortMenu.java"
+        ]
+      },
+      "path": "~/item magique"
+    },
+    {
+      "name": "BatonMagiqueTag",
+      "type": "tag",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baton_magique_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/tags/items/baton_magique.json"
+        ]
+      },
+      "path": "~/item magique"
+    },
+    {
+      "name": "ClickBouutonFoudre",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "click_bouuton_foudre",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/ClickBouutonFoudreProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/item magique"
+    },
+    {
+      "name": "ClickBoutonFoudre2",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "click_bouton_foudre_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/ClickBoutonFoudre2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/item magique"
+    },
+    {
+      "name": "ClickBoutonFoudre3",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "click_bouton_foudre_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/ClickBoutonFoudre3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/item magique"
+    },
+    {
+      "name": "ReturnMana",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_mana",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/ReturnManaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "Mana",
+      "type": "overlay",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mana",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/client/screens/ManaOverlay.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "GiveMana",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_mana",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/GiveManaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/item magique"
+    },
+    {
+      "name": "MaxMana",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "max_mana",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/MaxManaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/item magique"
+    },
+    {
+      "name": "ReturnMaxMana",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_max_mana",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/ReturnMaxManaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "TempsAppellerMana",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "temps_appeller_mana",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/TempsAppellerManaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/item magique"
+    },
+    {
+      "name": "BouleDeFeu",
+      "type": "enchantment",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boule_de_feu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/enchantment/BouleDeFeuEnchantment.java"
+        ]
+      },
+      "path": "~/item magique"
+    },
+    {
+      "name": "UtiliserBDF",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "utiliser_bdf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/UtiliserBDFProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/item magique"
+    },
+    {
+      "name": "ClickBoutonBDF",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "click_bouton_bdf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/ClickBoutonBDFProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/item magique"
+    },
+    {
+      "name": "ClickBoutonBDF2",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "click_bouton_bdf_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/ClickBoutonBDF2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/item magique"
+    },
+    {
+      "name": "ClickBoutonBDF3",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "click_bouton_bdf_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/ClickBoutonBDF3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/item magique"
+    },
+    {
+      "name": "Livremagiquebdf",
+      "type": "item",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "livremagiquebdf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/item/LivremagiquebdfItem.java",
+          "src/main/resources/assets/test/models/item/livremagiquebdf.json"
+        ]
+      },
+      "path": "~/item magique"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "NbCoupEpeeExplo",
+      "type": "number",
+      "scope": "map",
+      "value": "5.0"
+    },
+    {
+      "name": "VraiCoupEpee",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "mana",
+      "type": "number",
+      "scope": "map",
+      "value": "0.0"
+    },
+    {
+      "name": "manaMax",
+      "type": "number",
+      "scope": "map",
+      "value": "100.0"
+    },
+    {
+      "name": "Temps",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "gui.test.guide_1.label_votre_prochaine_mission_servez": "votre prochaine mission, servez vous en judicieusement.",
+      "gui.test.tablesort.label_iii": "III",
+      "gui.test.guide_2.button_menu": "Menu",
+      "block.test.tabledesort": "Table de sort",
+      "gui.test.guide_3.button_menu": "Menu",
+      "gui.test.guide_1.label_bonne_chance_a_vous_aventurier": "Bonne chance à vous aventurier !!",
+      "gui.test.tablesort.label_foudre": "Foudre",
+      "gui.test.guide_5.label_mission_2": "Mission 3",
+      "gui.test.guide_5.button_menu": "Menu",
+      "gui.test.guide_4.button_menu": "Menu",
+      "item.test.livremagiquebdf": "Livre magique de boule de feu ",
+      "gui.test.guide_1.label_chaque_succes_vous_donne_une_pag": "Chaque succés vous donne une page supplémentaire afin",
+      "gui.test.guide_4.button_page_suivante": "page suivante",
+      "xploria": "xploria",
+      "gui.test.guide_4.label_mission_2": "Mission 2",
+      "advancements.mission_2.descr": "- 1000 xp",
+      "gui.test.guide_2.button_page_suivante": "page suivante",
+      "item.test.epeeexplosive": "Epée éxplosive",
+      "item.test.livremagiquefoudre": "Livre magique de foudre",
+      "itemGroup.tabxploriaongletcrea": "Xploria",
+      "gui.test.guide_1.label_chaque_page_vous_donne_des_indic": "Chaque page vous donne des indications pour réaliser ",
+      "gui.test.guide_1.label_empty": "Guide",
+      "gui.test.timer_coups_restant.label_coups_restant": "Coups restant :",
+      "item.test.batonmagique": "Baton magique en bois",
+      "gui.test.guide_5.button_page_suivante": "page suivante",
+      "gui.test.mana.label_ff": "ff",
+      "item.test.xplorialivre": "Livre Xploria",
+      "advancements.racine_advancement.title": "Bienvenue !!",
+      "gui.test.guide_1.button_page_suivante": "page suivante",
+      "gui.test.guide_3.label_mission_1": "Mission 1",
+      "advancements.racine_advancement.descr": "Termine des quêtes pour obtenir des récompenses !",
+      "advancements.mission_1.descr": "- RIEN SALE NOOB",
+      "gui.test.guide_2.page3": "",
+      "gui.test.guide_2.page4": "",
+      "gui.test.guide_2.page5": "",
+      "advancements.mission_1.title": "Crée une épée en netherite :",
+      "gui.test.guide_1.label_de_continuer_votre_aventure": "de continuer votre aventure.",
+      "gui.test.guide_2.page1": "",
+      "gui.test.guide_2.page2": "",
+      "gui.test.mana.label_100": "/ ",
+      "gui.test.guide_2.button_page_2": "Page 2",
+      "gui.test.guide_2.button_page_1": "Page 1",
+      "gui.test.tablesort.label_ii": "II",
+      "gui.test.guide_2.button_page_4": "Page 4",
+      "gui.test.guide_2.button_page_3": "Page 3",
+      "gui.test.tablesort.label_i": "I",
+      "key.test.ouvrigui": "Ouverture du guide",
+      "gui.test.timer_coups_restant.label_empty": "\u003cVAR:integer:NbCoupExploEpee\u003e",
+      "gui.test.guide_2.button_page_5": "Page 5",
+      "enchantment.test.boule_de_feu": "Boule de feu",
+      "gui.test.tablesort.label_bdf": "BDF",
+      "gui.test.guide_3.button_page_suivante": "page suivante",
+      "enchantment.test.foudre": "Sort de foudre",
+      "block.test.block_principal_mod": "THE BLOCKS",
+      "advancements.mission_2.title": "Crée l\u0027épée explosive !"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "adavancement",
+        "children": [
+          {
+            "name": "table_loot_advancement",
+            "children": []
+          },
+          {
+            "name": "procedure_advancement",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "outils_epee",
+        "children": []
+      },
+      {
+        "name": "procedure",
+        "children": []
+      },
+      {
+        "name": "overlay",
+        "children": []
+      },
+      {
+        "name": "blocks",
+        "children": []
+      },
+      {
+        "name": "minerais",
+        "children": []
+      },
+      {
+        "name": "table loot",
+        "children": []
+      },
+      {
+        "name": "gui",
+        "children": [
+          {
+            "name": "procedure",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "items",
+        "children": []
+      },
+      {
+        "name": "item magique",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "test",
+    "modName": "Test",
+    "version": "1.0.0",
+    "author": "Drag0nys",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.test",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+>>>>>>> Stashed changes
 }

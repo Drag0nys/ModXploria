@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 
 package net.mcreator.test.item;
 
@@ -21,3 +22,28 @@ public class LivremagiquebdfItem extends Item {
 		return true;
 	}
 }
+=======
+
+package net.mcreator.test.item;
+
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+
+import net.mcreator.test.init.TestModTabs;
+
+public class LivremagiquebdfItem extends Item {
+	public LivremagiquebdfItem() {
+		super(new Item.Properties().tab(TestModTabs.TAB_XPLORIAONGLETCREA).stacksTo(1).rarity(Rarity.COMMON));
+	}
+
+	@Override
+	@OnlyIn(Dist.CLIENT)
+	public boolean isFoil(ItemStack itemstack) {
+		return true;
+	}
+}
+>>>>>>> Stashed changes

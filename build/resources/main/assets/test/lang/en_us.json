@@ -9,11 +9,21 @@
   "gui.test.guide_5.button_menu": "Menu",
   "gui.test.guide_5.label_mission_2": "Mission 3",
   "gui.test.guide_4.button_menu": "Menu",
+<<<<<<< HEAD
+=======
+  "item.test.livremagiquebdf": "Livre magique de boule de feu ",
+  "gui.test.guide_1.label_chaque_succes_vous_donne_une_pag": "Chaque succés vous donne une page supplémentaire afin",
+>>>>>>> c72121cedc428db086e3ffb4062d1fe5729a9a13
   "gui.test.guide_4.button_page_suivante": "page suivante",
   "gui.test.guide_1.label_chaque_succes_vous_donne_une_pag": "Chaque succés vous donne une page supplémentaire afin",
   "xploria": "xploria",
   "gui.test.guide_4.label_mission_2": "Mission 2",
+<<<<<<< HEAD
   "advancements.mission_2.descr": "- 1000 xp",
+=======
+  "advancements.mission_2.descr": "Recompense : ",
+  "gui.test.guide_2.button_page_suivante": "page suivante",
+>>>>>>> c72121cedc428db086e3ffb4062d1fe5729a9a13
   "item.test.epeeexplosive": "Epée éxplosive",
   "gui.test.guide_2.button_page_suivante": "page suivante",
   "item.test.livremagiquefoudre": "Livre magique de foudre",
@@ -23,19 +33,21 @@
   "gui.test.timer_coups_restant.label_coups_restant": "Coups restant :",
   "item.test.batonmagique": "Baton magique en bois",
   "gui.test.guide_5.button_page_suivante": "page suivante",
+  "gui.test.mana.label_ff": "ff",
   "item.test.xplorialivre": "Livre Xploria",
   "advancements.racine_advancement.title": "Bienvenue !!",
   "gui.test.guide_1.button_page_suivante": "page suivante",
   "gui.test.guide_3.label_mission_1": "Mission 1",
   "advancements.racine_advancement.descr": "Termine des quêtes pour obtenir des récompenses !",
-  "advancements.mission_1.descr": "- RIEN SALE NOOB",
+  "advancements.mission_1.descr": "Recompense : Livre de foudre",
   "gui.test.guide_2.page3": "",
   "gui.test.guide_2.page4": "",
   "gui.test.guide_2.page5": "",
-  "advancements.mission_1.title": "Crée une épée en netherite :",
+  "advancements.mission_1.title": "Crée un baton magique.",
   "gui.test.guide_1.label_de_continuer_votre_aventure": "de continuer votre aventure.",
   "gui.test.guide_2.page1": "",
   "gui.test.guide_2.page2": "",
+  "gui.test.mana.label_100": "/ ",
   "gui.test.guide_2.button_page_2": "Page 2",
   "gui.test.guide_2.button_page_1": "Page 1",
   "gui.test.tablesort.label_ii": "II",
@@ -45,8 +57,10 @@
   "key.test.ouvrigui": "Ouverture du guide",
   "gui.test.timer_coups_restant.label_empty": "\u003cVAR:integer:NbCoupExploEpee\u003e",
   "gui.test.guide_2.button_page_5": "Page 5",
+  "enchantment.test.boule_de_feu": "Boule de feu",
+  "gui.test.tablesort.label_bdf": "BDF",
   "gui.test.guide_3.button_page_suivante": "page suivante",
   "enchantment.test.foudre": "Sort de foudre",
   "block.test.block_principal_mod": "THE BLOCKS",
-  "advancements.mission_2.title": "Crée l\u0027épée explosive !"
+  "advancements.mission_2.title": "Applique le livre de foudre sur ton baton magique"
 }

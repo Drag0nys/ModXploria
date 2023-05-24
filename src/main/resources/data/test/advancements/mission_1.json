@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 {
   "display": {
     "icon": {
@@ -39,4 +40,47 @@
     ]
   },
   "parent": "test:racine_advancement"
+=======
+{
+  "display": {
+    "icon": {
+      "item": "test:batonmagique"
+    },
+    "title": {
+      "translate": "advancements.mission_1.title"
+    },
+    "description": {
+      "translate": "advancements.mission_1.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "mission_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "test:batonmagique"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "test:advancements_rewards/loot_mission_1"
+    ]
+  },
+  "parent": "test:racine_advancement"
+>>>>>>> Stashed changes
 }

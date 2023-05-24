@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 {
   "_fv": 39,
   "_type": "overlay",
@@ -62,4 +63,70 @@
       "snapOnGrid": true
     }
   }
+=======
+{
+  "_fv": 39,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_100",
+          "text": {
+            "fixedValue": "/ "
+          },
+          "color": {
+            "value": -16750849,
+            "falpha": 0.0
+          },
+          "x": 339,
+          "y": 224
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty",
+          "text": {
+            "fixedValue": "ff",
+            "name": "ReturnMana"
+          },
+          "color": {
+            "value": -16750849,
+            "falpha": 0.0
+          },
+          "x": 321,
+          "y": 224
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ff",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnMaxMana"
+          },
+          "color": {
+            "value": -16750849,
+            "falpha": 0.0
+          },
+          "x": 348,
+          "y": 224
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+>>>>>>> Stashed changes
 }

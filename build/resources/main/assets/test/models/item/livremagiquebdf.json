@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:src/main/resources/assets/test/models/item/livremagiquebdf.json
 {
   "parent": "item/generated",
@@ -6,15 +5,10 @@
     "layer0": "test:items/livre_magique_bdf"
   }
 ========
-=======
->>>>>>> Stashed changes
 {
   "parent": "item/generated",
   "textures": {
     "layer0": "test:items/livre_magique_bdf"
   }
-<<<<<<< Updated upstream
 >>>>>>>> Stashed changes:build/resources/main/assets/test/models/item/livremagiquebdf.json
-=======
->>>>>>> Stashed changes
 }

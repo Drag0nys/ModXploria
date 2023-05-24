@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 {
   "group": "xploria",
   "type": "minecraft:crafting_shaped",
@@ -27,4 +28,35 @@
     "item": "test:batonmagique",
     "count": 1
   }
+=======
+{
+  "group": "xploria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    " 45",
+    "6  "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "4": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "test:batonmagique",
+    "count": 1
+  }
+>>>>>>> Stashed changes
 }

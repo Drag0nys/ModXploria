@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 {
   "_fv": 39,
   "_type": "achievement",
@@ -22,4 +23,30 @@
     },
     "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"162\" y=\"143\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }
+=======
+{
+  "_fv": 39,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Applique le livre de foudre sur ton baton magique",
+    "achievementDescription": "Recompense : ",
+    "achievementIcon": {
+      "value": "CUSTOM:Livremagiquefoudre"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:Mission1"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"162\" y=\"143\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+>>>>>>> Stashed changes
 }

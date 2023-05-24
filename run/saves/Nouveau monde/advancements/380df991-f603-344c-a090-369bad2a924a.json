@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 {
   "test:racine_advancement": {
     "criteria": {
@@ -13,4 +14,21 @@
     "done": false
   },
   "DataVersion": 3120
+=======
+{
+  "test:racine_advancement": {
+    "criteria": {
+      "racine_advancement": "2023-05-24 16:47:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:sparse_jungle": "2023-05-24 16:47:24 +0200",
+      "minecraft:plains": "2023-05-24 16:47:11 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+>>>>>>> Stashed changes
 }

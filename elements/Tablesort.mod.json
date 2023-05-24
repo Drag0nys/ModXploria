@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 {
   "_fv": 39,
   "_type": "gui",
@@ -194,4 +195,202 @@
       "snapOnGrid": true
     }
   }
+=======
+{
+  "_fv": 39,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 300,
+    "height": 180,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "color": {
+            "value": -13421569,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 124,
+          "y": 66
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_livre_magique_foudre",
+          "image": "livre_magique_foudre.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "ClickBouutonFoudre"
+          },
+          "x": 184,
+          "y": 56
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_foudre",
+          "text": {
+            "fixedValue": "Foudre"
+          },
+          "color": {
+            "value": -14017837,
+            "falpha": 0.0
+          },
+          "x": 176,
+          "y": 38
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_i",
+          "text": {
+            "fixedValue": "I"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 159,
+          "y": 61
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ii",
+          "text": {
+            "fixedValue": "II"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 159,
+          "y": 79
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_iii",
+          "text": {
+            "fixedValue": "III"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 159,
+          "y": 97
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_livre_magique_foudre1",
+          "image": "livre_magique_foudre.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "ClickBoutonFoudre2"
+          },
+          "x": 184,
+          "y": 74
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_livre_magique_foudre2",
+          "image": "livre_magique_foudre.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "ClickBoutonFoudre3"
+          },
+          "x": 184,
+          "y": 92
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_bdf",
+          "text": {
+            "fixedValue": "BDF"
+          },
+          "color": {
+            "value": -52429,
+            "falpha": 0.0
+          },
+          "x": 224,
+          "y": 38
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_livre_magique_bdf",
+          "image": "livre_magique_bdf.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "ClickBoutonBDF"
+          },
+          "x": 224,
+          "y": 56
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_livre_magique_bdf1",
+          "image": "livre_magique_bdf.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "ClickBoutonBDF2"
+          },
+          "x": 224,
+          "y": 74
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_book",
+          "image": "livre_magique_bdf.png",
+          "hoveredImage": "book.png",
+          "onClick": {
+            "name": "ClickBoutonBDF3"
+          },
+          "x": 224,
+          "y": 92
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 16,
+      "sy": 18,
+      "ox": 30,
+      "oy": 38,
+      "snapOnGrid": true
+    }
+  }
+>>>>>>> Stashed changes
 }
