@@ -11,11 +11,9 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.item.enchantment.Enchantment;
 
 import net.mcreator.test.enchantment.FoudreEnchantment;
-import net.mcreator.test.enchantment.BouleDeFeuEnchantment;
 import net.mcreator.test.TestMod;
 
 public class TestModEnchantments {
 	public static final DeferredRegister<Enchantment> REGISTRY = DeferredRegister.create(ForgeRegistries.ENCHANTMENTS, TestMod.MODID);
-	public static final RegistryObject<Enchantment> BOULE_DE_FEU = REGISTRY.register("boule_de_feu", () -> new BouleDeFeuEnchantment());
 	public static final RegistryObject<Enchantment> FOUDRE = REGISTRY.register("foudre", () -> new FoudreEnchantment());
 }
