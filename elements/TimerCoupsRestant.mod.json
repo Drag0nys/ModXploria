@@ -1,0 +1,55 @@
+{
+  "_fv": 39,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGH",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_coups_restant",
+          "text": {
+            "fixedValue": "Coups restant :"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Conditionafficheroverlay"
+          },
+          "x": 126,
+          "y": 188
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty",
+          "text": {
+            "fixedValue": "",
+            "name": "Returnoverlaycoupsrestant"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "Conditionafficheroverlay"
+          },
+          "x": 206,
+          "y": 188
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 16,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

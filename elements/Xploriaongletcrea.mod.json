@@ -1,0 +1,11 @@
+{
+  "_fv": 39,
+  "_type": "tab",
+  "definition": {
+    "name": "Xploria",
+    "icon": {
+      "value": "CUSTOM:BlockPrincipalMod"
+    },
+    "showSearch": false
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "_fv": 39,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 300,
+    "height": 180,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "color": {
+            "value": -13421569,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 124,
+          "y": 66
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_livre_magique_foudre",
+          "image": "livre_magique_foudre.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "ClickBouutonFoudre"
+          },
+          "x": 184,
+          "y": 56
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_foudre",
+          "text": {
+            "fixedValue": "Foudre"
+          },
+          "color": {
+            "value": -14017837,
+            "falpha": 0.0
+          },
+          "x": 178,
+          "y": 39
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_i",
+          "text": {
+            "fixedValue": "I"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 159,
+          "y": 61
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ii",
+          "text": {
+            "fixedValue": "II"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 159,
+          "y": 79
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_iii",
+          "text": {
+            "fixedValue": "III"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 159,
+          "y": 97
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_livre_magique_foudre1",
+          "image": "livre_magique_foudre.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "ClickBoutonFoudreII"
+          },
+          "x": 184,
+          "y": 74
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_livre_magique_foudre2",
+          "image": "livre_magique_foudre.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "ClickBoutonFoudreIII"
+          },
+          "x": 184,
+          "y": 92
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 16,
+      "sy": 18,
+      "ox": 30,
+      "oy": 38,
+      "snapOnGrid": true
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "_fv": 39,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 322,
+    "height": 162,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_page_suivante",
+          "text": "page suivante",
+          "onClick": {
+            "name": "Ouvrirguide3"
+          },
+          "width": 93,
+          "height": 20,
+          "x": 267,
+          "y": 174
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_page_1",
+          "text": "Page 1",
+          "onClick": {
+            "name": "Ouvrirguide3"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 77,
+          "y": 57
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "page1",
+          "text": "",
+          "x": 57,
+          "y": 57
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_page_2",
+          "text": "Page 2",
+          "onClick": {
+            "name": "Ouvrirguide4"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 77,
+          "y": 84
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_page_3",
+          "text": "Page 3",
+          "width": 56,
+          "height": 20,
+          "x": 77,
+          "y": 111
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_page_4",
+          "text": "Page 4",
+          "width": 56,
+          "height": 20,
+          "x": 77,
+          "y": 138
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_page_5",
+          "text": "Page 5",
+          "width": 56,
+          "height": 20,
+          "x": 167,
+          "y": 57
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "page2",
+          "text": "",
+          "x": 57,
+          "y": 84
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "page3",
+          "text": "",
+          "x": 57,
+          "y": 111
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "page4",
+          "text": "",
+          "x": 57,
+          "y": 138
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "page5",
+          "text": "",
+          "x": 147,
+          "y": 57
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_menu",
+          "text": "Menu",
+          "onClick": {
+            "name": "Ouvrirguide1"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 57,
+          "y": 174
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 20,
+      "sy": 18,
+      "ox": 13,
+      "oy": 5,
+      "snapOnGrid": true
+    }
+  }
+}

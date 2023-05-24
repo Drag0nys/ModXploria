@@ -1,0 +1,62 @@
+{
+  "_fv": 39,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 322,
+    "height": 162,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_menu",
+          "text": "Menu",
+          "onClick": {
+            "name": "Ouvrirguide1"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 57,
+          "y": 174
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_page_suivante",
+          "text": "page suivante",
+          "width": 93,
+          "height": 20,
+          "x": 267,
+          "y": 174
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_mission_2",
+          "text": {
+            "fixedValue": "Mission 3"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 187,
+          "y": 48
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 20,
+      "sy": 18,
+      "ox": 13,
+      "oy": 5,
+      "snapOnGrid": true
+    }
+  }
+}

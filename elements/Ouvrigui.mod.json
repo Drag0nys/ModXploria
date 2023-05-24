@@ -1,0 +1,12 @@
+{
+  "_fv": 39,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "U",
+    "keyBindingName": "Ouverture du guide",
+    "keyBindingCategoryKey": "xploria",
+    "onKeyPressed": {
+      "name": "Ouvrirguide1"
+    }
+  }
+}

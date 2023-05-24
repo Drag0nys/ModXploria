@@ -1,0 +1,126 @@
+{
+  "_fv": 39,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 322,
+    "height": 162,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty",
+          "text": {
+            "fixedValue": "Guide"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 197,
+          "y": 48
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_page_suivante",
+          "text": "page suivante",
+          "onClick": {
+            "name": "Ouvrirguide2"
+          },
+          "width": 93,
+          "height": 20,
+          "x": 267,
+          "y": 174
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_chaque_succes_vous_donne_une_pag",
+          "text": {
+            "fixedValue": "Chaque succés vous donne une page supplémentaire afin"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 67,
+          "y": 66
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_de_continuer_votre_aventure",
+          "text": {
+            "fixedValue": "de continuer votre aventure."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 67,
+          "y": 75
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_chaque_page_vous_donne_des_indic",
+          "text": {
+            "fixedValue": "Chaque page vous donne des indications pour réaliser "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 67,
+          "y": 93
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_votre_prochaine_mission_servez",
+          "text": {
+            "fixedValue": "votre prochaine mission, servez vous en judicieusement."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 67,
+          "y": 102
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_bonne_chance_a_vous_aventurier",
+          "text": {
+            "fixedValue": "Bonne chance à vous aventurier !!"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "x": 127,
+          "y": 138
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 20,
+      "sy": 18,
+      "ox": 13,
+      "oy": 5,
+      "snapOnGrid": true
+    }
+  }
+}
