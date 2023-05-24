@@ -672,22 +672,9 @@
       "path": "~/item magique"
     },
     {
-      "name": "Test",
-      "type": "tag",
-      "sortid": 44,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/test/tags/items/livre_magique.json"
-        ]
-      },
-      "path": "~/item magique"
-    },
-    {
       "name": "Foudre",
       "type": "enchantment",
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "foudre",
@@ -948,6 +935,56 @@
         ]
       },
       "path": "~/item magique"
+    },
+    {
+      "name": "BouleDeFeu",
+      "type": "enchantment",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boule_de_feu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/enchantment/BouleDeFeuEnchantment.java"
+        ]
+      },
+      "path": "~/item magique"
+    },
+    {
+      "name": "UtiliserBDF",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "utiliser_bdf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/UtiliserBDFProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/item magique"
     }
   ],
   "variable_elements": [
@@ -1033,6 +1070,7 @@
       "key.test.ouvrigui": "Ouverture du guide",
       "gui.test.timer_coups_restant.label_empty": "\u003cVAR:integer:NbCoupExploEpee\u003e",
       "gui.test.guide_2.button_page_5": "Page 5",
+      "enchantment.test.boule_de_feu": "Boule de feu",
       "gui.test.guide_3.button_page_suivante": "page suivante",
       "enchantment.test.foudre": "Sort de foudre",
       "block.test.block_principal_mod": "THE BLOCKS",

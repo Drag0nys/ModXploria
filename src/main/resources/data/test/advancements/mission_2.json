@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "test:epeeexplosive"
+      "item": "test:livremagiquefoudre"
     },
     "title": {
       "translate": "advancements.mission_2.title"
@@ -12,28 +12,12 @@
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
   "criteria": {
     "mission_2": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "test:epeeexplosive"
-            ],
-            "count": {
-              "min": 1,
-              "max": 1
-            }
-          }
-        ]
-      }
+      "trigger": "minecraft:impossible"
     }
-  },
-  "rewards": {
-    "experience": 1000
   },
   "parent": "test:mission_1"
 }

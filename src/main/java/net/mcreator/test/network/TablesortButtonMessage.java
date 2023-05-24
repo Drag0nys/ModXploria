@@ -15,6 +15,9 @@ import net.mcreator.test.world.inventory.TablesortMenu;
 import net.mcreator.test.procedures.ClickBouutonFoudreProcedure;
 import net.mcreator.test.procedures.ClickBoutonFoudre3Procedure;
 import net.mcreator.test.procedures.ClickBoutonFoudre2Procedure;
+import net.mcreator.test.procedures.ClickBoutonBDFProcedure;
+import net.mcreator.test.procedures.ClickBoutonBDF3Procedure;
+import net.mcreator.test.procedures.ClickBoutonBDF2Procedure;
 import net.mcreator.test.TestMod;
 
 import java.util.function.Supplier;
@@ -75,6 +78,18 @@ public class TablesortButtonMessage {
 		if (buttonID == 2) {
 
 			ClickBoutonFoudre3Procedure.execute(entity);
+		}
+		if (buttonID == 3) {
+
+			ClickBoutonBDFProcedure.execute(entity);
+		}
+		if (buttonID == 4) {
+
+			ClickBoutonBDF2Procedure.execute(entity);
+		}
+		if (buttonID == 5) {
+
+			ClickBoutonBDF3Procedure.execute(entity);
 		}
 	}
 

@@ -1,0 +1,21 @@
+{
+  "_fv": 39,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Boule de feu",
+    "type": "BREAKABLE",
+    "rarity": "COMMON",
+    "minLevel": 1,
+    "maxLevel": 3,
+    "damageModifier": 0,
+    "compatibleEnchantments": [],
+    "excludeEnchantments": false,
+    "compatibleItems": [],
+    "excludeItems": false,
+    "isTreasureEnchantment": true,
+    "isCurse": false,
+    "isAllowedOnBooks": false,
+    "canGenerateInLootTables": false,
+    "canVillagerTrade": false
+  }
+}

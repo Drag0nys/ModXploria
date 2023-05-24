@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "test:epeeexplosive",
+          "name": "test:livremagiquefoudre",
           "weight": 1,
           "functions": [
             {

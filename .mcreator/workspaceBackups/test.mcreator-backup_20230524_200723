@@ -672,22 +672,9 @@
       "path": "~/item magique"
     },
     {
-      "name": "Test",
-      "type": "tag",
-      "sortid": 44,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/test/tags/items/livre_magique.json"
-        ]
-      },
-      "path": "~/item magique"
-    },
-    {
       "name": "Foudre",
       "type": "enchantment",
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "foudre",
@@ -948,6 +935,131 @@
         ]
       },
       "path": "~/item magique"
+    },
+    {
+      "name": "BouleDeFeu",
+      "type": "enchantment",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boule_de_feu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/enchantment/BouleDeFeuEnchantment.java"
+        ]
+      },
+      "path": "~/item magique"
+    },
+    {
+      "name": "UtiliserBDF",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "utiliser_bdf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/UtiliserBDFProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/item magique"
+    },
+    {
+      "name": "ClickBoutonBDF",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "click_bouton_bdf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/ClickBoutonBDFProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/item magique"
+    },
+    {
+      "name": "ClickBoutonBDF2",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "click_bouton_bdf_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/ClickBoutonBDF2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/item magique"
+    },
+    {
+      "name": "ClickBoutonBDF3",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "click_bouton_bdf_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/ClickBoutonBDF3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/item magique"
+    },
+    {
+      "name": "Livremagiquebdf",
+      "type": "item",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "livremagiquebdf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/item/LivremagiquebdfItem.java",
+          "src/main/resources/assets/test/models/item/livremagiquebdf.json"
+        ]
+      },
+      "path": "~/item magique"
     }
   ],
   "variable_elements": [
@@ -995,6 +1107,7 @@
       "gui.test.guide_5.label_mission_2": "Mission 3",
       "gui.test.guide_5.button_menu": "Menu",
       "gui.test.guide_4.button_menu": "Menu",
+      "item.test.livremagiquebdf": "Livre magique de boule de feu ",
       "gui.test.guide_1.label_chaque_succes_vous_donne_une_pag": "Chaque succés vous donne une page supplémentaire afin",
       "gui.test.guide_4.button_page_suivante": "page suivante",
       "xploria": "xploria",
@@ -1033,6 +1146,8 @@
       "key.test.ouvrigui": "Ouverture du guide",
       "gui.test.timer_coups_restant.label_empty": "\u003cVAR:integer:NbCoupExploEpee\u003e",
       "gui.test.guide_2.button_page_5": "Page 5",
+      "enchantment.test.boule_de_feu": "Boule de feu",
+      "gui.test.tablesort.label_bdf": "BDF",
       "gui.test.guide_3.button_page_suivante": "page suivante",
       "enchantment.test.foudre": "Sort de foudre",
       "block.test.block_principal_mod": "THE BLOCKS",
