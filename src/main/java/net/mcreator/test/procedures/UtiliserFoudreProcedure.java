@@ -17,6 +17,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.test.network.TestModVariables;
 import net.mcreator.test.init.TestModEnchantments;
 
 import javax.annotation.Nullable;
@@ -37,7 +38,7 @@ public class UtiliserFoudreProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		if (EnchantmentHelper.getItemEnchantmentLevel(TestModEnchantments.FOUDRE.get(), (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) != 0) {
+		if (EnchantmentHelper.getItemEnchantmentLevel(TestModEnchantments.FOUDRE.get(), (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) != 0 && TestModVariables.MapVariables.get(world).mana >= 10) {
 			if (world instanceof ServerLevel _level) {
 				LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
 				entityToSpawn
@@ -65,6 +66,8 @@ public class UtiliserFoudreProcedure {
 				entityToSpawn.setVisualOnly(false);
 				_level.addFreshEntity(entityToSpawn);
 			}
+			TestModVariables.MapVariables.get(world).mana = TestModVariables.MapVariables.get(world).mana - 10;
+			TestModVariables.MapVariables.get(world).syncData(world);
 		}
 	}
 }

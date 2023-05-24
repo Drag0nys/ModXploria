@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:netherite_sword"
+      "item": "test:batonmagique"
     },
     "title": {
       "translate": "advancements.mission_1.title"
@@ -12,7 +12,7 @@
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
   "criteria": {
     "mission_1": {
@@ -21,7 +21,7 @@
         "items": [
           {
             "items": [
-              "minecraft:netherite_sword"
+              "test:batonmagique"
             ],
             "count": {
               "min": 1,
@@ -31,6 +31,12 @@
         ]
       }
     }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "test:advancements_rewards/loot_mission_1"
+    ]
   },
   "parent": "test:racine_advancement"
 }

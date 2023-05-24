@@ -16,9 +16,9 @@ import java.util.function.Supplier;
 import java.util.Map;
 
 public class ClickBouutonFoudreProcedure {
-	public static double execute(Entity entity) {
+	public static void execute(Entity entity) {
 		if (entity == null)
-			return 0;
+			return;
 		if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == TestModItems.BATONMAGIQUE.get()
 				|| (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
 						.is(ItemTags.create(new ResourceLocation("mods:baton_magique")))) {
@@ -39,16 +39,13 @@ public class ClickBouutonFoudreProcedure {
 				}
 				((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)).enchant(TestModEnchantments.FOUDRE.get(),
 						2);
-			} else if (EnchantmentHelper.getItemEnchantmentLevel(TestModEnchantments.FOUDRE.get(),
-					(entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)) != 0
-					&& EnchantmentHelper.getItemEnchantmentLevel(TestModEnchantments.FOUDRE.get(),
-							(entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)) < 1) {
-				return 0;
-			} else {
+			}
+			if (((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)).isEnchanted() == false) {
+				(entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getOrCreateTag()
+						.putBoolean("mods:baton_magique", (true));
 				((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)).enchant(TestModEnchantments.FOUDRE.get(),
 						1);
 			}
 		}
-		return 0;
 	}
 }

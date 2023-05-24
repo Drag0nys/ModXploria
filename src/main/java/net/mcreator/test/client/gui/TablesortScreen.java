@@ -26,6 +26,9 @@ public class TablesortScreen extends AbstractContainerScreen<TablesortMenu> {
 	ImageButton imagebutton_livre_magique_foudre;
 	ImageButton imagebutton_livre_magique_foudre1;
 	ImageButton imagebutton_livre_magique_foudre2;
+	ImageButton imagebutton_livre_magique_bdf;
+	ImageButton imagebutton_livre_magique_bdf1;
+	ImageButton imagebutton_book;
 
 	public TablesortScreen(TablesortMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -73,10 +76,11 @@ public class TablesortScreen extends AbstractContainerScreen<TablesortMenu> {
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, Component.translatable("gui.test.tablesort.label_foudre"), 114, 9, -14017837);
+		this.font.draw(poseStack, Component.translatable("gui.test.tablesort.label_foudre"), 112, 8, -14017837);
 		this.font.draw(poseStack, Component.translatable("gui.test.tablesort.label_i"), 95, 31, -12829636);
 		this.font.draw(poseStack, Component.translatable("gui.test.tablesort.label_ii"), 95, 49, -12829636);
 		this.font.draw(poseStack, Component.translatable("gui.test.tablesort.label_iii"), 95, 67, -12829636);
+		this.font.draw(poseStack, Component.translatable("gui.test.tablesort.label_bdf"), 160, 8, -52429);
 	}
 
 	@Override
@@ -113,5 +117,29 @@ public class TablesortScreen extends AbstractContainerScreen<TablesortMenu> {
 		});
 		guistate.put("button:imagebutton_livre_magique_foudre2", imagebutton_livre_magique_foudre2);
 		this.addRenderableWidget(imagebutton_livre_magique_foudre2);
+		imagebutton_livre_magique_bdf = new ImageButton(this.leftPos + 160, this.topPos + 26, 16, 16, 0, 0, 16, new ResourceLocation("test:textures/screens/atlas/imagebutton_livre_magique_bdf.png"), 16, 32, e -> {
+			if (true) {
+				TestMod.PACKET_HANDLER.sendToServer(new TablesortButtonMessage(3, x, y, z));
+				TablesortButtonMessage.handleButtonAction(entity, 3, x, y, z);
+			}
+		});
+		guistate.put("button:imagebutton_livre_magique_bdf", imagebutton_livre_magique_bdf);
+		this.addRenderableWidget(imagebutton_livre_magique_bdf);
+		imagebutton_livre_magique_bdf1 = new ImageButton(this.leftPos + 160, this.topPos + 44, 16, 16, 0, 0, 16, new ResourceLocation("test:textures/screens/atlas/imagebutton_livre_magique_bdf1.png"), 16, 32, e -> {
+			if (true) {
+				TestMod.PACKET_HANDLER.sendToServer(new TablesortButtonMessage(4, x, y, z));
+				TablesortButtonMessage.handleButtonAction(entity, 4, x, y, z);
+			}
+		});
+		guistate.put("button:imagebutton_livre_magique_bdf1", imagebutton_livre_magique_bdf1);
+		this.addRenderableWidget(imagebutton_livre_magique_bdf1);
+		imagebutton_book = new ImageButton(this.leftPos + 160, this.topPos + 62, 16, 16, 0, 0, 16, new ResourceLocation("test:textures/screens/atlas/imagebutton_book.png"), 16, 32, e -> {
+			if (true) {
+				TestMod.PACKET_HANDLER.sendToServer(new TablesortButtonMessage(5, x, y, z));
+				TablesortButtonMessage.handleButtonAction(entity, 5, x, y, z);
+			}
+		});
+		guistate.put("button:imagebutton_book", imagebutton_book);
+		this.addRenderableWidget(imagebutton_book);
 	}
 }

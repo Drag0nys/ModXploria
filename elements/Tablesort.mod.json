@@ -56,8 +56,8 @@
             "value": -14017837,
             "falpha": 0.0
           },
-          "x": 178,
-          "y": 39
+          "x": 176,
+          "y": 38
         }
       },
       {
@@ -112,7 +112,7 @@
           "image": "livre_magique_foudre.png",
           "hoveredImage": "",
           "onClick": {
-            "name": "ClickBoutonFoudreII"
+            "name": "ClickBoutonFoudre2"
           },
           "x": 184,
           "y": 74
@@ -125,9 +125,63 @@
           "image": "livre_magique_foudre.png",
           "hoveredImage": "",
           "onClick": {
-            "name": "ClickBoutonFoudreIII"
+            "name": "ClickBoutonFoudre3"
           },
           "x": 184,
+          "y": 92
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_bdf",
+          "text": {
+            "fixedValue": "BDF"
+          },
+          "color": {
+            "value": -52429,
+            "falpha": 0.0
+          },
+          "x": 224,
+          "y": 38
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_livre_magique_bdf",
+          "image": "livre_magique_bdf.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "ClickBoutonBDF"
+          },
+          "x": 224,
+          "y": 56
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_livre_magique_bdf1",
+          "image": "livre_magique_bdf.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "ClickBoutonBDF2"
+          },
+          "x": 224,
+          "y": 74
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_book",
+          "image": "livre_magique_bdf.png",
+          "hoveredImage": "book.png",
+          "onClick": {
+            "name": "ClickBoutonBDF3"
+          },
+          "x": 224,
           "y": 92
         }
       }
